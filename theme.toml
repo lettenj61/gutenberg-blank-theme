@@ -1,0 +1,24 @@
+name = "new theme"
+description = "A shiny new gutenberg theme"
+license = "MIT"
+homepage = "https://github.com/yourname/repo/"
+# The minimum version of Gutenberg required
+min_version = "0.1"
+
+# Any variable there can be overriden in the end user `config.toml`
+# You don't need to prefix variables by the theme name but as this will
+# be merged with user data, some kind of prefix or nesting is preferable
+# Use snake_casing to be consistent with the rest of Gutenberg
+[extra]
+
+# The theme author info: you!
+[author]
+name = "Your name"
+homepage = "https://example.com/
+
+# If this is porting a theme from another static site engine, provide
+# the info of the original author here
+[original]
+author =  "mdo"
+homepage = "http://markdotto.com/"
+repo = "https://www.github.com/mdo/hyde"
